@@ -22,7 +22,7 @@
 
 ```bash
 # 克隆项目
-git clone <https://github.com/zhaoxi7109/image-converter-mcp-server.git>
+git clone https://github.com/zhaoxi7109/image-converter-mcp-server.git
 cd image-converter-mcp-server
 
 # 安装依赖
