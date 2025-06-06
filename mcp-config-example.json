@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "image-converter": {
+      "command": "node",
+      "args": ["index.js"],
+      "cwd": "./",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

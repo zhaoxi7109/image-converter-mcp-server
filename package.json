@@ -1,0 +1,28 @@
+{
+  "name": "image-converter-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for image format conversion (PNG, JPG, JPEG, ICO)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "node test.js",
+    "test:advanced": "node test-advanced.js",
+    "test:all": "npm run test && npm run test:advanced"
+  },
+  "keywords": ["mcp", "image", "converter", "png", "jpg", "jpeg", "ico"],
+  "author": "zhaoxi",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "sharp": "^0.33.0",
+    "to-ico": "^1.1.5",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7",
+    "glob": "^10.3.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
